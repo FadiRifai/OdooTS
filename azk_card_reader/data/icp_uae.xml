@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+     			<record id="uae_icp_IdNumber" model="azk.card.fields">
+            <field name="name">ID Number</field>
+            <field name="card_field_name">IdNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_CardNumber" model="azk.card.fields">
+            <field name="name">Card Number</field>
+            <field name="card_field_name">CardNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_IdType" model="azk.card.fields">
+            <field name="name">ID Type</field>
+            <field name="card_field_name">IdType</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_IssueDate" model="azk.card.fields">
+            <field name="name">Issue Date</field>
+            <field name="card_field_name">IssueDate</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_ExpiryDate" model="azk.card.fields">
+            <field name="name">Expiry Date</field>
+            <field name="card_field_name">ExpiryDate</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_TitleArabic" model="azk.card.fields">
+            <field name="name">Title Arabic</field>
+            <field name="card_field_name">TitleArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FullNameArabic" model="azk.card.fields">
+            <field name="name">Full Name Arabic</field>
+            <field name="card_field_name">FullNameArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_TitleEnglish" model="azk.card.fields">
+            <field name="name">Title English</field>
+            <field name="card_field_name">TitleEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FullNameEnglish" model="azk.card.fields">
+            <field name="name">Full Name English</field>
+            <field name="card_field_name">FullNameEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_gender" model="azk.card.fields">
+            <field name="name">gender</field>
+            <field name="card_field_name">gender</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_NationalityArabic" model="azk.card.fields">
+            <field name="name">Nationality Arabic</field>
+            <field name="card_field_name">NationalityArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_NationalityEnglish" model="azk.card.fields">
+            <field name="name">Nationality English</field>
+            <field name="card_field_name">NationalityEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_NationalityCode" model="azk.card.fields">
+            <field name="name">Nationality Code</field>
+            <field name="card_field_name">NationalityCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_DateOfBirth" model="azk.card.fields">
+            <field name="name">Date Of Birth</field>
+            <field name="card_field_name">DateOfBirth</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PlaceOfBirthArabic" model="azk.card.fields">
+            <field name="name">Place Of Birth Arabic</field>
+            <field name="card_field_name">PlaceOfBirthArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PlaceOfBirthEnglish" model="azk.card.fields">
+            <field name="name">Place Of Birth English</field>
+            <field name="card_field_name">PlaceOfBirthEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_OccupationCode" model="azk.card.fields">
+            <field name="name">Occupation Code</field>
+            <field name="card_field_name">OccupationCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_OccupationArabic" model="azk.card.fields">
+            <field name="name">Occupation Arabic</field>
+            <field name="card_field_name">OccupationArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_OccupationEnglish" model="azk.card.fields">
+            <field name="name">Occupation English</field>
+            <field name="card_field_name">OccupationEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FamilyId" model="azk.card.fields">
+            <field name="name">Family Id</field>
+            <field name="card_field_name">FamilyId</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_OccupationTypeArabic" model="azk.card.fields">
+            <field name="name">Occupation Type Arabic</field>
+            <field name="card_field_name">OccupationTypeArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_OccupationTypeEnglish" model="azk.card.fields">
+            <field name="name">Occupation Type English</field>
+            <field name="card_field_name">OccupationTypeEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_OccupationFieldCode" model="azk.card.fields">
+            <field name="name">Occupation Field Code</field>
+            <field name="card_field_name">OccupationFieldCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_CompanyNameArabic" model="azk.card.fields">
+            <field name="name">Company Name Arabic</field>
+            <field name="card_field_name">CompanyNameArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_CompanyNameEnglish" model="azk.card.fields">
+            <field name="name">Company Name English</field>
+            <field name="card_field_name">CompanyNameEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_MaritalStatusCode" model="azk.card.fields">
+            <field name="name">Marital Status Code</field>
+            <field name="card_field_name">MaritalStatusCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_HusbandIdNumber" model="azk.card.fields">
+            <field name="name">Husband Id Number</field>
+            <field name="card_field_name">HusbandIdNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_SponsorTypeCode" model="azk.card.fields">
+            <field name="name">Sponsor Type Code</field>
+            <field name="card_field_name">SponsorTypeCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_SponsorUnifiedNumber" model="azk.card.fields">
+            <field name="name">Sponsor Unified Number</field>
+            <field name="card_field_name">SponsorUnifiedNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_SponsorName" model="azk.card.fields">
+            <field name="name">Sponsor Name</field>
+            <field name="card_field_name">SponsorName</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_ResidencyTypeCode" model="azk.card.fields">
+            <field name="name">Residency Type Code</field>
+            <field name="card_field_name">ResidencyTypeCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_ResidencyNumber" model="azk.card.fields">
+            <field name="name">Residency Number</field>
+            <field name="card_field_name">ResidencyNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_ResidencyExpiryDate" model="azk.card.fields">
+            <field name="name">Residency Expiry Date</field>
+            <field name="card_field_name">ResidencyExpiryDate</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportNumber" model="azk.card.fields">
+            <field name="name">Passport Number</field>
+            <field name="card_field_name">PassportNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportTypeCode" model="azk.card.fields">
+            <field name="name">Passport Type Code</field>
+            <field name="card_field_name">PassportTypeCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportCountryCode" model="azk.card.fields">
+            <field name="name">Passport Country Code</field>
+            <field name="card_field_name">PassportCountryCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportCountryArabic" model="azk.card.fields">
+            <field name="name">Passport Country Arabic</field>
+            <field name="card_field_name">PassportCountryArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportCountryEnglish" model="azk.card.fields">
+            <field name="name">Passport Country English</field>
+            <field name="card_field_name">PassportCountryEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportIssueDate" model="azk.card.fields">
+            <field name="name">Passport Issue Date</field>
+            <field name="card_field_name">PassportIssueDate</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PassportExpiryDate" model="azk.card.fields">
+            <field name="name">Passport Expiry Date</field>
+            <field name="card_field_name">PassportExpiryDate</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_QualificationLevelCode" model="azk.card.fields">
+            <field name="name">Qualification Level Code</field>
+            <field name="card_field_name">QualificationLevelCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_QualificationLevelArabic" model="azk.card.fields">
+            <field name="name">Qualification Level Arabic</field>
+            <field name="card_field_name">QualificationLevelArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>	
+		<record id="uae_icp_QualificationLevelEnglish" model="azk.card.fields">
+            <field name="name">Qualification Level English</field>
+            <field name="card_field_name">QualificationLevelEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_DegreeDescriptionArabic" model="azk.card.fields">
+            <field name="name">Degree Description Arabic</field>
+            <field name="card_field_name">DegreeDescriptionArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_DegreeDescriptionEnglish" model="azk.card.fields">
+            <field name="name">Degree Description English</field>
+            <field name="card_field_name">DegreeDescriptionEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FieldOfStudyCode" model="azk.card.fields">
+            <field name="name">Field Of Study Code</field>
+            <field name="card_field_name">FieldOfStudyCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FieldOfStudyArabic" model="azk.card.fields">
+            <field name="name">Field Of Study Arabic</field>
+            <field name="card_field_name">FieldOfStudyArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FieldOfStudyEnglish" model="azk.card.fields">
+            <field name="name">Field Of Study English</field>
+            <field name="card_field_name">FieldOfStudyEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PlaceOfStudyArabic" model="azk.card.fields">
+            <field name="name">Place Of Study Arabic</field>
+            <field name="card_field_name">PlaceOfStudyArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PlaceOfStudyEnglish" model="azk.card.fields">
+            <field name="name">Place Of Study English</field>
+            <field name="card_field_name">PlaceOfStudyEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_DateOfGraduation" model="azk.card.fields">
+            <field name="name">Date Of Graduation</field>
+            <field name="card_field_name">DateOfGraduation</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_MotherFullNameArabic" model="azk.card.fields">
+            <field name="name">Mother Full NameArabic</field>
+            <field name="card_field_name">MotherFullNameArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_MotherFullNameEnglish" model="azk.card.fields">
+            <field name="name">Mother Full Name English</field>
+            <field name="card_field_name">MotherFullNameEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_AddressTypeCode" model="azk.card.fields">
+            <field name="name">Address Type Code</field>
+            <field name="card_field_name">AddressTypeCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		
+		<record id="uae_icp_LocationCode" model="azk.card.fields">
+            <field name="name">Address Location Code</field>
+            <field name="card_field_name">LocationCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_EmirateCode" model="azk.card.fields">
+            <field name="name">Address Emirate Code</field>
+            <field name="card_field_name">EmirateCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_EmirateArabic" model="azk.card.fields">
+            <field name="name">Address Emirate Arabic</field>
+            <field name="card_field_name">EmirateArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_EmirateEnglish" model="azk.card.fields">
+            <field name="name">Address Emirate English</field>
+            <field name="card_field_name">EmirateEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_CityCode" model="azk.card.fields">
+            <field name="name">City Code</field>
+            <field name="card_field_name">CityCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_CityArabic" model="azk.card.fields">
+            <field name="name">City Arabic</field>
+            <field name="card_field_name">CityArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_CityEnglish" model="azk.card.fields">
+            <field name="name">City English</field>
+            <field name="card_field_name">CityEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_StreetArabic" model="azk.card.fields">
+            <field name="name">Street Arabic</field>
+            <field name="card_field_name">StreetArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_StreetEnglish" model="azk.card.fields">
+            <field name="name">Street English</field>
+            <field name="card_field_name">StreetEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_PoBox" model="azk.card.fields">
+            <field name="name">PoBox</field>
+            <field name="card_field_name">PoBox</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_AreaCode" model="azk.card.fields">
+            <field name="name">Area Code</field>
+            <field name="card_field_name">AreaCode</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_AreaArabic" model="azk.card.fields">
+            <field name="name">Area Arabic</field>
+            <field name="card_field_name">AreaArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_AreaEnglish" model="azk.card.fields">
+            <field name="name">Area English</field>
+            <field name="card_field_name">AreaEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_BuildingNameArabic" model="azk.card.fields">
+            <field name="name">Building Name Arabic</field>
+            <field name="card_field_name">BuildingNameArabic</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_BuildingNameEnglish" model="azk.card.fields">
+            <field name="name">Building Name English</field>
+            <field name="card_field_name">BuildingNameEnglish</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_LandPhoneNumber" model="azk.card.fields">
+            <field name="name">Land Phone Number</field>
+            <field name="card_field_name">LandPhoneNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_MobilePhoneNumber" model="azk.card.fields">
+            <field name="name">Mobile Phone Number</field>
+            <field name="card_field_name">MobilePhoneNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_Email" model="azk.card.fields">
+            <field name="name">Email</field>
+            <field name="card_field_name">Email</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		<record id="uae_icp_FlatNumber" model="azk.card.fields">
+            <field name="name">Flat Number</field>
+            <field name="card_field_name">FlatNumber</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		  <record id="uae_icp_CardHolderPhoto" model="azk.card.fields">
+            <field name="name">Card Holder Photo</field>
+            <field name="card_field_name">CardHolderPhoto</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		 <record id="uae_icp_CardSignatureImage" model="azk.card.fields">
+            <field name="name">Card Signature Image</field>
+            <field name="card_field_name">CardSignatureImage</field>
+            <field name="card_type">uae_icp</field>
+        </record>
+		
+     </data>
+</odoo>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+     	<record id="paci_arabic_name_1" model="azk.card.fields">
+            <field name="name">Arabic Name 1</field>
+            <field name="card_field_name">arabic_name_1</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_arabic_name_2" model="azk.card.fields">
+            <field name="name">Arabic Name 2</field>
+            <field name="card_field_name">arabic_name_2</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_arabic_name_3" model="azk.card.fields">
+            <field name="name">Arabic Name 3</field>
+            <field name="card_field_name">arabic_name_3</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_arabic_name_4" model="azk.card.fields">
+            <field name="name">Arabic Name 4</field>
+            <field name="card_field_name">arabic_name_4</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_arabic_name_full" model="azk.card.fields">
+            <field name="name">Arabic Name Full</field>
+            <field name="card_field_name">arabic_name_full</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_english_name_1" model="azk.card.fields">
+            <field name="name">English Name 1</field>
+            <field name="card_field_name">english_name_1</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_english_name_2" model="azk.card.fields">
+            <field name="name">English Name 2</field>
+            <field name="card_field_name">english_name_2</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_english_name_3" model="azk.card.fields">
+            <field name="name">English Name 3</field>
+            <field name="card_field_name">english_name_3</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_english_name_4" model="azk.card.fields">
+            <field name="name">English Name 4</field>
+            <field name="card_field_name">english_name_4</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_english_name_full" model="azk.card.fields">
+            <field name="name">English Name Full</field>
+            <field name="card_field_name">english_name_full</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_sex_arabic" model="azk.card.fields">
+            <field name="name">Sex Arabic</field>
+            <field name="card_field_name">sex_arabic</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_sex_english" model="azk.card.fields">
+            <field name="name">Sex English</field>
+            <field name="card_field_name">sex_english</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_nationality_arabic" model="azk.card.fields">
+            <field name="name">Nationality Arabic</field>
+            <field name="card_field_name">nationality_arabic</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_nationality_english" model="azk.card.fields">
+            <field name="name">Nationality English</field>
+            <field name="card_field_name">nationality_english</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_civil_id" model="azk.card.fields">
+            <field name="name">Civil ID</field>
+            <field name="card_field_name">civil_id</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_birthdate" model="azk.card.fields">
+            <field name="name">Birthdate</field>
+            <field name="card_field_name">birthdate</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_card_issue_date" model="azk.card.fields">
+            <field name="name">Card Issue Date</field>
+            <field name="card_field_name">card_issue_date</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_card_expiry_date" model="azk.card.fields">
+            <field name="name">Card Expiry Date</field>
+            <field name="card_field_name">card_expiry_date</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_document_number" model="azk.card.fields">
+            <field name="name">Document Number</field>
+            <field name="card_field_name">document_number</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_sex_arabic" model="azk.card.fields">
+            <field name="name">Sex Arabic</field>
+            <field name="card_field_name">sex_arabic</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_card_serial_number" model="azk.card.fields">
+            <field name="name">Card Serial Number</field>
+            <field name="card_field_name">card_serial_number</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_moi_reference" model="azk.card.fields">
+            <field name="name">MOI Reference</field>
+            <field name="card_field_name">moi_reference</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_district" model="azk.card.fields">
+            <field name="name">District</field>
+            <field name="card_field_name">district</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_block_number" model="azk.card.fields">
+            <field name="name">Block Number</field>
+            <field name="card_field_name">block_number</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_street_name" model="azk.card.fields">
+            <field name="name">Street Name</field>
+            <field name="card_field_name">street_name</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_building_plot_number" model="azk.card.fields">
+            <field name="name">Building Plot Number</field>
+            <field name="card_field_name">building_plot_number</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_unit_type" model="azk.card.fields">
+            <field name="name">Unit Type</field>
+            <field name="card_field_name">unit_type</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_unit_number" model="azk.card.fields">
+            <field name="name">Unit Number</field>
+            <field name="card_field_name">unit_number</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_floor_number" model="azk.card.fields">
+            <field name="name">Floor Number</field>
+            <field name="card_field_name">floor_number</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_blood_type" model="azk.card.fields">
+            <field name="name">Blood Type</field>
+            <field name="card_field_name">blood_type</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_guardian_civil_id" model="azk.card.fields">
+            <field name="name">Guardian Civil ID</field>
+            <field name="card_field_name">guardian_civil_id</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_telephone_1" model="azk.card.fields">
+            <field name="name">Telephone 1</field>
+            <field name="card_field_name">telephone_1</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_telephone_2" model="azk.card.fields">
+            <field name="name">Telephone 2</field>
+            <field name="card_field_name">telephone_2</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_e_mail_address" model="azk.card.fields">
+            <field name="name">E Mail Address</field>
+            <field name="card_field_name">e_mail_address</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_passport" model="azk.card.fields">
+            <field name="name">Passport</field>
+            <field name="card_field_name">passport</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_additional_f_1t" model="azk.card.fields">
+            <field name="name">Additional F1</field>
+            <field name="card_field_name">additional_f_1</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_additional_f_2" model="azk.card.fields">
+            <field name="name">Additional F2</field>
+            <field name="card_field_name">additional_f_2</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_title" model="azk.card.fields">
+            <field name="name">Title</field>
+            <field name="card_field_name">title</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_address_unique_key" model="azk.card.fields">
+            <field name="name">Address Unique Key</field>
+            <field name="card_field_name">address_unique_key</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_application_version" model="azk.card.fields">
+            <field name="name">Application Version</field>
+            <field name="card_field_name">application_version</field>
+            <field name="card_type">paci</field>
+        </record>
+		<record id="paci_MOI_Reference_Indic" model="azk.card.fields">
+            <field name="name">MOI Reference Indic</field>
+            <field name="card_field_name">MOI_Reference_Indic</field>
+            <field name="card_type">paci</field>
+        </record>
+		
+	</data>
+</odoo>

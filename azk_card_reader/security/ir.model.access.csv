@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_azk_card_model_mapping,azk_card_model_mapping,model_azk_card_model_mapping,base.group_user,1,1,1,1
+access_azk_card_reader,azk_card_reader,model_azk_card_reader,base.group_user,1,1,1,1
+access_azk_card_fields,azk_card_fields,model_azk_card_fields,base.group_user,1,1,1,1
+access_azk_card_model,azk_card_model,model_azk_card_model,base.group_user,1,1,1,1

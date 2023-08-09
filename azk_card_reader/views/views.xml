@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+	<!-- Card MODEL MAPPING -->
+	
+	<!-- LIST -->
+	<record id="card_model_mapping_tree" model="ir.ui.view">
+	    <field name="name">card.model.mapping.tree</field>
+	    <field name="model">azk.card.model.mapping</field>
+	    <field name="arch" type="xml">
+	        <tree string="Card Model Mapping" editable="bottom">
+	        	<field name="model_id" invisible="1"/>
+	        	<field name="card_type" invisible="1"/>
+	            <field name="card_field" domain="([('card_type', '=', card_type)])"/>
+	            <field name="model_field" domain="[('model_id', '=', model_id)]"/>
+	        </tree>
+	    </field>
+	</record>
+	
+	<!-- END Card MODEL MAPPING -->
+	
+	<!-- Card MODEL -->
+	<record id="card_model_form" model="ir.ui.view">
+	    <field name="name">card.model.form</field>
+	    <field name="model">azk.card.model</field>
+	    <field name="arch" type="xml">
+	        <form string="Card Model">
+	            <sheet>
+	            	<group>
+	            		<group>
+	            			<field name="model_id"/>
+	            			<field name="card_type"/>
+	            		</group>
+	            	</group>
+	                <group col="4">
+	                    <field name="kanban_search_field" domain="[('model_id', '=', model_id)]"/>
+	                    <field name="form_search_card" domain="[('card_type', '=', card_type)]"/>
+	                    <field name="list_search_field" domain="[('model_id', '=', model_id)]"/>
+	                    <field name="form_search_field" domain="[('model_id', '=', model_id)]" attrs="{'required':[('form_search_card', '!=', False)], 'invisible': [('form_search_card', '=', False)]}"/>
+	                </group>
+	                
+	                <div class="o_form_label" style="font-size: 17px">Fields to Fill</div>
+	                <tree string="Card Models Mapping">
+	            		<field name="card_model_mapping" />
+	            	</tree>
+	            </sheet>
+	        </form>
+	    </field>
+	</record>
+	
+	<!-- LIST -->
+	<record id="card_model_tree" model="ir.ui.view">
+	    <field name="name">card.model.tree</field>
+	    <field name="model">azk.card.model</field>
+	    <field name="arch" type="xml">
+	        <tree string="Card Model">
+	            <field name="model_id"/>
+	            <field name="kanban_search_field"/>
+	            <field name="list_search_field"/>
+	            <field name="form_search_card"/>
+	            <field name="form_search_field"/>
+	        </tree>
+	    </field>
+	</record>
+	<!-- END Card MODEL -->
+	
+	<!-- MENU ITEMS ACTION -->
+	<record id="card_model_mapping_action" model="ir.actions.act_window">
+		<field name="name">Card Reader</field>
+        <field name="res_model">azk.card.model.mapping</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <record id="card_model_action" model="ir.actions.act_window">
+		<field name="name">Card Models</field>
+        <field name="res_model">azk.card.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- END MENU ITEMS ACTION  -->
+    
+	<!-- MENU ITEMS -->
+	<menuitem id="card_model_menu_item" name="Card Reader" action="card_model_action" parent="base.menu_ir_property"/>
+	<!-- END MENU ITEMS -->
+</odoo>
