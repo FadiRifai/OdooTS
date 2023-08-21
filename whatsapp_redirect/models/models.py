@@ -34,3 +34,20 @@ class ResPartner(models.Model):
                 'view_type': 'form',
                 'context': {'default_user_id': self.id},
                 }
+
+from odoo import models, fields, api
+
+class UpdateEmployeeNames(models.Model):
+    _name = 'custom_hr.update_employee_names'
+    _description = 'Automated Action: Update Employee Names from Contact Names'
+
+    @api.model
+    def _update_employee_names(self):
+        employees_to_update = self.env['hr.employee'].search([])
+
+        for employee in employees_to_update:
+            if employee.partner_id:
+                employee.write({'name': employee.partner_id.name})
+
+    def update_employee_names(self):
+        self._update_employee_names()
